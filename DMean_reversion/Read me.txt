@@ -1,0 +1,8 @@
+EA DMean_reversion มาจากกลยุทธ Dynamic Mean Reversion โดยจะใช้กับ TF 30min ซึ่งใช้คู่กับกลยุทธ Adaptive Scalpingเพื่อลด Drawdown 
+ซึ่งใช้ทดสอบกับคู่เงิน USDCHF เป็นหลัก เนื่องจากคู่เงินนี้correlationต่ำมากๆเทียบกับคู่เงินUSDJPYในกลยุทธAdaptive Scalping
+
+EAตัวนี้ต้องใช้Indicators 3ตัว ได้แก่
+1. HMA ( hull-moving-average )
+2. KAMA ( kama_adaptive )
+3. ATR
+สามารถดาวน์โหลดIndicatorตัวที่1กับ2ที่ได้แนบไว้ให้ แล้วนำไปวางไว้ในโฟลเดอร์ Indicatorsของโปรแกรม MT4
