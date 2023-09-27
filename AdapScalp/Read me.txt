@@ -1,0 +1,7 @@
+EA AdapScalp_USDJPY มาจากกลยุทธ Adaptive Scalping  โดยจะใช้กับ TF 15min เพราะเน้นการScalpให้จบในวัน ซึ่งใช้ทดสอบกับคู่เงิน USDJPY เป็นหลัก
+
+EAตัวนี้ต้องใช้Indicators 3ตัว ได้แก่
+1. ALMA
+2. VI ( vortex-indicator )
+3. ATR
+สามารถดาวน์โหลดIndicatorตัวที่1กับ2ที่ได้แนบไว้ให้ แล้วนำไปวางไว้ในโฟลเดอร์ Indicatorsของโปรแกรม MT4
